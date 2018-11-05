@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 def index(request):
-    # pdb.set_trace()   # BreakPoint
+    import pdb; pdb.set_trace()
     return HttpResponse("Hello, world. You're at the polls index.")
